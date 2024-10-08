@@ -16,9 +16,9 @@ from .base import Decoder, Encoder
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_BITRATE = 1000000  # 1 Mbps
+DEFAULT_BITRATE = 5000000  # 5 Mbps
 MIN_BITRATE = 500000  # 500 kbps
-MAX_BITRATE = 3000000  # 3 Mbps
+MAX_BITRATE = 8000000  # 8 Mbps
 
 MAX_FRAME_RATE = 30
 PACKET_MAX = 1300
